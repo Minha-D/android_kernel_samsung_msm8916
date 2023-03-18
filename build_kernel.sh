@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export ARCH=arm
-export CROSS_COMPILE=$(pwd)/linaro-arm-eabi-4.9/bin/arm-eabi-
+export CROSS_COMPILE=$(pwd)/linaro-toolchain/bin/arm-eabi-
 
 mkdir output
 
